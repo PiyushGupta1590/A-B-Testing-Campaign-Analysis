@@ -4,9 +4,6 @@ Statistical comparison of two ad campaigns using SQL for cleaning and two-propor
 
 **Dataset:** [A/B Testing Dataset (Kaggle)](https://www.kaggle.com/datasets/amirmotefaker/ab-testing-dataset): daily funnel data for a Control and a Test campaign (Impressions → Clicks → Searches → View Content → Add to Cart → Purchase), plus spend.
 
-## Result in one line
-Test wins on **overall CVR** (0.70% vs 0.48%) and CTR, but Control wins on **post-click CVR** (9.83% vs 8.49%) and **CPA** ($4.41 vs $5.02), so the recommendation is to **retain Control** and run a follow-up test. See [`decision.md`](decision.md).
-
 ## Repository structure
 | File | Purpose |
 |---|---|
