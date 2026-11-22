@@ -72,3 +72,7 @@ To regenerate `clean_table.csv`, import the Kaggle CSVs into MySQL as `control_g
 
 ## Tech stack
 MySQL · Python (pandas, NumPy, SciPy, statsmodels) · Jupyter
+
+#Refrences 
+Contentful blog by salesforce: https://www.contentful.com/blog/increase-conversion-rates-with-ab-testing/
+Kaggle notebook refrence: https://www.kaggle.com/code/macypalmerston/a-b-testing-campaign-analysis-and-dashboard/notebook?select=control_group.csv
