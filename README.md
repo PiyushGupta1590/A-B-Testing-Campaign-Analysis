@@ -51,17 +51,7 @@ Both are **two-tailed** (we care whether either campaign differs, in either dire
 ### 4. Statistical test
 Both metrics are proportions, so a **two-proportion z-test** (`statsmodels.stats.proportion.proportions_ztest`) is used. Successes are purchases and trials are impressions (or clicks). Order is `[Control, Test]`, so **z < 0 means Test is higher, z > 0 means Control is higher.**
 
-### 5. Results
 
-| Metric | Control | Test | z | p-value | Winner |
-|---|---|---|---|---|---|
-| Overall CVR | 0.477% | 0.700% | −33.54 | 1.4 × 10⁻²⁴⁶ | Test |
-| Post-click CVR | 9.83% | 8.49% | +13.27 | 3.3 × 10⁻⁴⁰ | Control |
-
-Both are significant at 5%. The two metrics tell different stories: Test attracts more engagement, Control converts the visitors better, and Control has the lower CPA.
-
-### 6. Decision
-Retain Control, investigate Test's post-click experience, and re-test. Full reasoning and limitations are in [`decision.md`](decision.md).
 
 ## How to run
 ```bash
