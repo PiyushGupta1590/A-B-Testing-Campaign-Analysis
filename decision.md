@@ -59,7 +59,7 @@ The tests disagree, so neither campaign wins on both. Test's advantage comes fro
 Because the evidence is mixed, there is no clear case for moving budget to Test yet.
 
 - **Retain Control** as the main campaign for now.
-- **Conduct further testing** on Test, focused on why its clicks convert less (landing page, audience quality).
-- **Revisit shifting budget** if Test's post-click conversion improves to match Control's while keeping its higher overall CVR.
+- **Need to Conduct further testing** on Test, focused on why its clicks convert less (landing page, audience quality).
+- **Revisit shifting budget** if Test's post-click conversion improves to match Control's while keeping its higher overall CVR.After that one extra guardrail metric that is needed to be tested is CAC.
 
-**Limitation:** this decision uses conversion metrics only. Cost per acquisition was calculated in the SQL step (Control $4.41, Test $5.02) but was not tested.
+**Limitation:** this decision uses conversion metrics only.Cost per acquisition was calculated in the SQL step (Control $4.41, Test $5.02) but was not tested.
