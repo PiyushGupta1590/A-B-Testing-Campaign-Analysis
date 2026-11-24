@@ -99,7 +99,7 @@ The probability of observing a Z-score at least as extreme as $\vert{}Z\vert{}$ 
 
 $$\text{P-value} = 2 \times \left(1 - \Phi(\vert{}Z\vert{})\right)$$
 
-Where $\text{CDF}(z)$ is the Cumulative Distribution Function (CDF) of the Standard Normal Distribution—a bell curve with a mean ($\mu$) of $0$ and a standard deviation ($\sigma$) of $1$. 
+Where $\text{CDF}(z)$ is the Cumulative Distribution Function (CDF) of the Standard Normal Distribution— curve with a mean ($\mu$) of $0$ and a standard deviation ($\sigma$) of $1$. 
 
 The CDF, denoted as $\Phi(z)$, is the total area under that bell curve from $-\infty$ up to your $z$-score:
 
