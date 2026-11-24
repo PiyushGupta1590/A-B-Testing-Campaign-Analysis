@@ -99,11 +99,14 @@ The probability of observing a Z-score at least as extreme as $\vert{}Z\vert{}$ 
 
 $$\text{P-value} = 2 \times \left(1 - \Phi(\vert{}Z\vert{})\right)$$
 
-standard deviation ($\sigma$) of $1$. The CDF, denoted as $\Phi(z)$, is the total area under that bell curve from $-\infty$ up to your Z-score:
+Where $\text{CDF}(z)$ is the Cumulative Distribution Function (CDF) of the Standard Normal Distribution—a bell curve with a mean ($\mu$) of $0$ and a standard deviation ($\sigma$) of $1$. 
 
-$$\Phi(z) = P(Z \le z) = \int_{-\infty}^{z} \frac{1}{\sqrt{2\pi}} e^{-\frac{x^2}{2}} \, dx$$
+The CDF, denoted as $\Phi(z)$, is the total area under that bell curve from $-\infty$ up to your $z$-score:
 
----
+$$
+\Phi(z) = P(Z \le z) = \int_{-\infty}^{z} \frac{1}{\sqrt{2\pi}} e^{-\frac{x^2}{2}} \, dx
+$$
+
 
 ### Calculation 1: Overall CVR (`Purchases / Impressions`)
 
