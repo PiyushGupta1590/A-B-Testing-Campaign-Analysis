@@ -75,4 +75,9 @@ MySQL · Python (pandas, NumPy, SciPy, statsmodels) · Jupyter
 
 #Refrences 
 Contentful blog by salesforce: https://www.contentful.com/blog/increase-conversion-rates-with-ab-testing/
+
+
 Kaggle notebook refrence: https://www.kaggle.com/code/macypalmerston/a-b-testing-campaign-analysis-and-dashboard/notebook?select=control_group.csv
+
+
+Youtube : https://www.youtube.com/watch?v=qke0VHoz8a8&t=2924s
