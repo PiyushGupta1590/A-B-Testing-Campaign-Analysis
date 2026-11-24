@@ -184,7 +184,8 @@ With $\vert{}Z\vert{} = 13.27$ (again well past $1.96$):
 
 
 $$\text{P-value} = 2 \times \left(1 - \Phi(13.2741)\right) \approx \mathbf{3.27 \times 10^{-40}}$$
-
+where cdf(zscore) is the Cumulative Distribution Function (CDF) of the Standard Normal Distribution—a bell curve with a mean ($\mu$) of 0 and a standard deviation ($\sigma$) of 1.
+The CDF, denoted as $\Phi(z)$, is the total area under that bell curve from $-\infty$ up to your Z-score:$$\Phi(z) = P(Z \le z) = \int_{-\infty}^{z} \frac{1}{\sqrt{2\pi}} e^{-\frac{x^2}{2}} \, dx$$
 ---
 
 ### What These Numbers Mean Together
