@@ -6,8 +6,8 @@ Both results are statistically significant at the 5% significance level.
 
 | Metric         | Z-statistic | P-value       | Conclusion  |
 | -------------- | ----------- | ------------- | ----------- |
-| Overall CVR    | -33.54      | 1.42 × 10⁻²⁴⁶ | Significant |
-| Post-click CVR | +13.27      | 3.27 × 10⁻⁴⁰  | Significant |
+| Overall CVR    | -33.54      | p<0.0001      | Significant |
+| Post-click CVR | +13.27      | p<0.0001      | Significant |
 
 The test was run in the order `[Control, Test]`, so a negative z means Test is higher and a positive z means Control is higher.
 
@@ -49,17 +49,15 @@ Both p-values are far below 0.05, so both differences are statistically signific
 
 | Question | Metric | Winner |
 |---|---|---|
-| Which campaign converts impressions into purchases better? | Overall CVR | Test (0.70% vs 0.48%) |
-| Which campaign converts clicks into purchases better? | Post-click CVR | Control (9.83% vs 8.49%) |
+| Which campaign converts impressions into purchases better? | Overall CVR | Test vs Control (0.70% vs 0.48%) |
+| Which campaign converts clicks into purchases better? | Post-click CVR | Control vs Test (9.83% vs 8.49%)   |
 
 **Step 3: Combine the two results**
-The tests disagree, so neither campaign wins on both. Test's advantage comes from getting more people to click, not from clicks that convert better. Once someone has clicked, Control is the more effective campaign.
+The tests disagree, so neither campaign wins on both. Test's advantage comes from getting more people to click, not from clicks that convert better. Once someone has clicked, Control is the more effective campaign.Still The Test Campaign is a promising initial version because it significantly improves overall Conversion Rate (CVR = purchases / impressions). However, the current dataset does not include revenue or order value, so we should not claim that Test is already more profitable.
 
 **Step 4: Decision**
 Because the evidence is mixed, there is no clear case for moving budget to Test yet.
 
 - **Retain Control** as the main campaign for now.
 - **Need to Conduct further testing** on Test, focused on why its clicks convert less (landing page, audience quality).
-- **Revisit shifting budget** if Test's post-click conversion improves to match Control's while keeping its higher overall CVR.After that one extra guardrail metric that is needed to be tested is CAC.
 
-**Limitation:** this decision uses conversion metrics only.Cost per acquisition was calculated in the SQL step (Control $4.41, Test $5.02) but was not tested.
